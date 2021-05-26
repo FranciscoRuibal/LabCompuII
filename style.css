@@ -1,0 +1,72 @@
+.knight{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.Controles{
+    color: white;
+}
+.MejoresTiempos{
+    color: white;
+}
+.principal{
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+div{
+    border: 2px solid #101820FF;
+    margin: 10px;
+    padding: 5px 30px;
+    background: rgba(5, 1, 1, 0.33);
+    border-radius: 5px;
+}
+body{
+    background: #101820FF;
+    background-image: url("imagenes/water.png");
+    font-family: "Calibri Light";
+    text-align: center;
+    color: white;
+}
+table{
+    text-align: center;
+}
+a:link, a:visited{
+    color: white;
+    font-size: 1.4em;
+}
+a:hover{
+    font-size: 2em;
+}
+a:active{
+    font-weight: bold;
+}
+
+.imagenes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.imagenes{
+    border: rgba(255, 255, 255, 0);
+    background: rgba(255, 255, 255, 0);
+}
+
+.imag1{
+    border-radius: 10%;
+}
+
+.imag2{
+    border-radius: 10%;
+}
+
+.marco{
+    border-radius: 10%;
+}
+
+.polo{
+    border-radius: 10%;
+}
