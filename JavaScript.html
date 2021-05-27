@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+    <script type="text/javascript" src="Practico.js"> </script>
+</head>
+<body class="body-num" >  onload="alert('Hola Mundo')"
+<h1> Hola mundo </h1>
+<select name="unidades">
+    <option value="unidad_metros"> Metros</option>
+    <option value="unidad_yardas"> Yardas</option>
+    <option value="unidad_centimetros"> Centimetros</option>
+    <option value="unidad_pulgadas"> Pulgadas</option>
+</select>
+<div class="conversor de unidades">
+<form name="lasunidades">
+<p>
+    <label for="metro"> Metro </label> = <input id="metro" type="text" name="unid_metro" onchange="cambiarunidades(this.id, this.value)">
+</p>
+<p>
+    <label for="pulgadas"> Pulgadas </label> = <input id="pulgadas" type="text" name="unid_pulgadas" onchange="cambiarunidades(this.id, this.value)">
+</p>
+<p>
+    <label flr="pies"> Pies </label> = <input id="pies" type="text" name="unid_pies" onchange="cambiarunidades(this.id, this.value)">
+</p>
+</form>
+</div>
+</body>
+</html>
